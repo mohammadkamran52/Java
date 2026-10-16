@@ -1,0 +1,10 @@
+Learn to write a program that prints text.
+Become familiar with executing programs.
+Know what the term "parameter" means.
+
+Learn to write a program that reads text written by a user.
+Know what a "string" refers to in programming.
+Know how to join (i.e., "concatenate") strings together.
+
+Understand the concept of a variable. You know what variable types, names, and values are.
+Know how to create and use string, integer, floating-point, and boolean variables.
