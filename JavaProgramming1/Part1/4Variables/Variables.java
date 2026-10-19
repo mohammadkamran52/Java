@@ -39,10 +39,15 @@ public class Variables{
 
        String valueAsString = "42";
        int value2 = Integer.valueOf(valueAsString);
-       System.out.println(value);
+       System.out.println(value2);
 
-       System.out.println("Write a value ");
-       int value3 = Integer.valueOf(scanner.nextLine());
-       System.out.println("You wrote " + value3);
+       String text1 = scanner.nextLine();
+       System.out.println("You wrote " + text1);
+       int integer = Integer.valueOf(scanner.nextLine());
+       System.out.println("You wrote " + integer);
+       double floatingPoint1 = Double.valueOf(scanner.nextLine());
+       System.out.println("You wrote " + floatingPoint1);
+       boolean trueOrFalse1 = Boolean.valueOf(scanner.nextLine());
+       System.out.println("You wrote " + trueOrFalse1);
     }
 }

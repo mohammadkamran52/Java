@@ -8,3 +8,6 @@ Know how to join (i.e., "concatenate") strings together.
 
 Understand the concept of a variable. You know what variable types, names, and values are.
 Know how to create and use string, integer, floating-point, and boolean variables.
+
+Learn to perform calculations with the help of variables.
+Know how to form printable statements including both calculations (expressions) and strings.
