@@ -15,5 +15,32 @@ public class CalculatingWithNumbers{
         
         System.out.println(first + second); // prints 6
         System.out.println(2 + second - first - second); // prints 0
+
+        System.out.println("here is an integer --> " + 2);
+        System.out.println(2 + " <-- here is an integer");
+
+        int first2 = 3;
+        int second2 = 2;
+        double result = first2 / second2;
+        System.out.println(result);
+
+        double whenDividendIsFloat = 3.0 / 2;
+        System.out.println(whenDividendIsFloat); // prints 1.5
+        double whenDivisorIsFloat = 3 / 2.0;
+        System.out.println(whenDivisorIsFloat); // prints 1.5
+
+        int first1 = 3;
+        int second1 = 2;
+        double result1 = (double) first1 / second1;
+        System.out.println(result1); // prints 1.5
+        double result2 = first1 / (double) second1;
+        System.out.println(result2); // prints 1.5
+        double result3 = (double) (first1 / second1);
+        System.out.println(result3); // prints 1.0
+
+        int dividend = 3;
+        int divisor = 2;
+        double result4 = 1.0 * dividend / divisor;
+        System.out.println(result4);
     }
 }
