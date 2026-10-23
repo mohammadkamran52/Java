@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ConditionalStatementsAndConditionalOperation{
     public static void main(String[] args){
         System.out.println("Hello, world!");
@@ -37,6 +39,45 @@ public class ConditionalStatementsAndConditionalOperation{
             System.out.println("The number is greater than two.");
         } else {
             System.out.println("The number is less than zero.");
+        }
+
+        boolean isItTrue = true;
+        if (isItTrue) {
+            System.out.println("Pretty wild!");
+        }
+
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter the first string");
+        String first = reader.nextLine();
+        System.out.println("Enter the second string");
+        String second = reader.nextLine();
+        if (first == second) {
+            System.out.println("The strings were the same!");
+        } else {
+            System.out.println("The strings were different!");
+        }
+
+        System.out.println("Enter a string");
+        String input = reader.nextLine();
+        if (input.equals("a string")) {
+            System.out.println("Great! You read the instructions correctly.");
+        } else {
+            System.out.println("Missed the mark!");
+        }
+
+        System.out.println("Input two strings");
+        String first1 = reader.nextLine();
+        String second1 = reader.nextLine();
+        if (first1.equals(second1)) {
+            System.out.println("The strings were the same!");
+        } else {
+            System.out.println("The strings were different!");
+        }
+        if (first1.equals("two strings")) {
+            System.out.println("Clever!");
+        }
+        if (second1.equals("two strings")) {
+            System.out.println("Sneaky!");
         }
     }
 }
